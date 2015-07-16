@@ -1,0 +1,3582 @@
+[
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1100,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Latin Jungle",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Funky Junky Workshop",
+    "Type": "nm"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1245,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Eclipse Saxophone Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1345,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Funky Junky Workshop",
+    "Type": "nm"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ben Crosland Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1530,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Funky Junky Workshop",
+    "Type": "nm"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1615,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cabage Alley",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Living Room",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "Green Room",
+    "Time": 2100,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Dainton/Fernandez",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 1,
+    "Venue": "Green Room",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Oren Marshall's The Story of Speedy Sponda",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Barbirolli Room",
+    "Time": 1300,
+    "Duration": 150,
+    "Cost": 0,
+    "Artist": "Gary Boyle Trio with Zoe Rahman, Brigette Escobar Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 2,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Ingrid Laubrock Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mike Hope's Jazzmahoot",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Stuart Mcallum Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Henlid Barabak Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Hartley/Hyde Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Chris Williams Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Edward Barnwell/Steve Chadwick Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 5,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Michael Garrick New Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tough Tenors Revisited",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 6,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tim Lapthorn Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Whirl",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 6,
+    "Venue": "Band on the Wall",
+    "Time": 2030,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Roy Powell Quartet Northwest",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 6,
+    "Venue": "Band on the Wall",
+    "Time": 2130,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Real Dreams",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Helen Watson Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 7,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Crystal",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "KDQ",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 7,
+    "Venue": "Band on the Wall",
+    "Time": 2030,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tony Kofi and the Afro Jazz Family",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Off the Wagon Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 8,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jon Thorne's Oedipus Complex",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 8,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Flat Earth Ensemble presents God's Trombones",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1615,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Acoustric",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 8,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 8,
+    "Artist": "Nikki Iles an Friends",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Adrezej Baranek Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Albert Square",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Deirdre Cartwright Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Albert Square",
+    "Time": 1555,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Soweto Kinch Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Albert Square",
+    "Time": 1720,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Richard Iles Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Albert Square",
+    "Time": 1900,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Cracklin' Records All-Stars",
+    "Type": "m"
+  },
+  {
+    "Year": 2003,
+    "Day": 9,
+    "Venue": "Albert Square",
+    "Time": 2030,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Orquestra Timbala: 'Tribute to Pello'",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "John Helliwell's Crème Anglaise",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lunetta Dean",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Walter Junior Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1800,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Grew Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 2100,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "John Ellis & Robert Dainton",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jon Thorne's Oedipus Complex 2004",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Edward Barnell",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1345,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Sketch",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1430,
+    "Duration": 45,
+    "Cost": 0,
+    "Artist": "Arcadia",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 2,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 8,
+    "Artist": "Steve Berry Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "McKenzie/Medbøe Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 3,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alcyona Mick Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alex Douglas's Saravan",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 3,
+    "Venue": "Matt and Phred's",
+    "Time": 2100,
+    "Duration": 150,
+    "Cost": 0,
+    "Artist": "Ed Kainyek's Jazz Jam",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jim Whyte Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 4,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sara Littlefield Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Dylan Kay Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 4,
+    "Venue": "Bridgewater Hall",
+    "Time": 1930,
+    "Duration": 90,
+    "Cost": 32.5,
+    "Artist": "Wynton Marsalis & the Lincoln Centre Jazz Orchestra",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sample & Hold",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 5,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Julian Costello Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 5,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Dave Skinner & Frank Grime",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Stuart Riley Octet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2100,
+    "Duration": 150,
+    "Cost": "",
+    "Artist": "Ed Kainyek's Jazz Jam",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sacker/Lyons Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jim Lowe & Simon Goulding",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Loz Speyer's Time Zone",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Keith Phillips Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ed Kainyek & Andrzej Baranek",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Bourbon y Tequila",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 6,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 8,
+    "Artist": "Julian Argüelles Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1130,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Elements",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1315,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Stuart McCallum Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1415,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mamadou and the Super Libidor Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1530,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lever Malone",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1645,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Andy Schofield Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2004,
+    "Day": 7,
+    "Venue": "Green Room",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 9,
+    "Artist": "Hans Koller Big Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Apitos Pequeño",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Wigan Jazz Collective",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lunetta Dean Jazz Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 1,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 24.5,
+    "Artist": "Toni Kofi Trio   1 & Monty Alexander Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 1,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "D'Arkestra",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sarah Bennett Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1415,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Julie Sassoon",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1515,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Rosie Brown",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 2,
+    "Venue": "Zion Centre",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 9,
+    "Artist": "Carmel",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 120,
+    "Cost": 0,
+    "Artist": "Festival Jam Session",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mars Columbo",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alexander, McKenzie & McKay",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "String & Bone",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ebossa",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "St Ann's Church",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Neil Yates: Tarnished Silver – 'Sketches of a Northern Town'",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 3,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Stuart McCallum featuring Ari Hoenig",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Freddie Garner Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jendaa",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Seminar for jazz musicians and promoters",
+    "Type": "nm"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Andrzej Baranek and Frank Grime",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mojito",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 180,
+    "Cost": 12.5,
+    "Artist": "Tom Bancroft / Enzo Rocco Duo, The Little Radio",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 4,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Clark / Mackenzie / Barras",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Unfurl",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tom Rogerson Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Brooja",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Paul Bentley, Jeremy Sassoon and Friends",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "John Abercrombie Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Mike Walker Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Rob Lavers Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Four Candles",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Three Views",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Andy Davies Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "Green Room",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 9,
+    "Artist": "Richard Iles' Minature Brass Emporium",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Jon Thorne Quartet featuring Gilad Atzmon",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Axis Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mike Hall / Dan Wheildon Duo",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "Starbucks",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Honk",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Crème Anglaise",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "Green Room",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 10,
+    "Artist": "Sister Maj's Blouse: The music of Börje Fredriksson",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "The Matt Nickson Six",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 7,
+    "Venue": "BBC Radio 3",
+    "Time": 2330,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jazz on 3: live from Manchester",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Albert Square",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tony Woods Project",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Albert Square",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Munch Manship Octet",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Albert Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mamadou and the Super Libidor Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Albert Square",
+    "Time": 1900,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Little Green",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Albert Square",
+    "Time": 2100,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "H Gang",
+    "Type": "m"
+  },
+  {
+    "Year": 2006,
+    "Day": 8,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "The New Mastersounds",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cuba Vida",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Farmyard Animals",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 1,
+    "Venue": "St Ann's Square",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "40 Notes",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 1,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 6,
+    "Artist": "Real Book Northwest",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 1,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Paul Latham Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lewis Wright Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1415,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Graeme Stephen Sextet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1530,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Neil Yates's New Origins",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "City Inn",
+    "Time": 1730,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Almeida Collective",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 120,
+    "Cost": 13,
+    "Artist": "Huw Warren, arthurs.høiby.ritchie",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cabbage Alley",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ed Kainyek's Jam Session",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Magic Hat Ensemble",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 3,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ed Barnwell",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Elliot Henshaw Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 3,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 8,
+    "Artist": "Julian Argüelles – Learn Live talk and performance",
+    "Type": "nm"
+  },
+  {
+    "Year": 2007,
+    "Day": 3,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 3,
+    "Artist": "Current Affairs",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cushfoot",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 4,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Chosen",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tango Siempre",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 4,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 13,
+    "Artist": "The Lydian Sound Orchestra",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 4,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Barb Jungr & Her Musicians",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Nicollete Elkinson Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 5,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Schalom – Bakhshayesh",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Dave Edge Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 5,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 13,
+    "Artist": "Watching the Well: Jon Thorne Celebrates Danny Thompson",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Empirical",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Senda",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 6,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alex Douglas",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Manchester Music Makers",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 6,
+    "Venue": "St Ann's Church",
+    "Time": 1930,
+    "Duration": 75,
+    "Cost": 9,
+    "Artist": "Stuart McCallum: Chamber Pot",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Emma Cantons and Her Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Matt Halsall Sextet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 7,
+    "Venue": "Cross St Street",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Andy Schofield & Les Chisnall",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mike Hall Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 7,
+    "Venue": "Green Room",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 12,
+    "Artist": "Norma Winstone and Friends",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 7,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "The Mind's Eye Project",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sax Assault",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Dead Capo",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Vibration Music Society",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1815,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Soul Daddy",
+    "Type": "m"
+  },
+  {
+    "Year": 2007,
+    "Day": 8,
+    "Venue": "Matt and Phred's",
+    "Time": 2030,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Myke Wilson Trio & Stuart McCallum Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 1,
+    "Venue": "Deaf Institute",
+    "Time": 2000,
+    "Duration": 180,
+    "Cost": 8,
+    "Artist": "Stuart McCallum, Chris Illingworth Trio, Beats & Pieces Big Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Bossa Nouvelle",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1345,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "John Ellis Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1530,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "12twelve",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "City Inn",
+    "Time": 1730,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lunetta Dean Jazz Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 13.5,
+    "Artist": "Christine Tobin Band: Secret Life of a Girl",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "RKW in a World'n'Jazz Style",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Bridgewater Hall",
+    "Time": 1255,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "'Jazz – Manhattan to Manchester",
+    "Type": "nm"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Bridgewater Hall",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Gareth Roberts Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Bridgewater Hall",
+    "Time": 1415,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alcyona Mick Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Bridgewater Hall",
+    "Time": 1530,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Free Spirits",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Bridgewater Hall",
+    "Time": 1930,
+    "Duration": 120,
+    "Cost": 19.5,
+    "Artist": "La Gran Descarga, Roberto Fonseca",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 3,
+    "Venue": "Matt and Phred's",
+    "Time": 2100,
+    "Duration": 150,
+    "Cost": 0,
+    "Artist": "Festival Jam Session",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "EU3   1",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 4,
+    "Venue": "Bridgewater Hall",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Wagon Train",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 4,
+    "Venue": "Leftbank Stage",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "HB3",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 4,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 120,
+    "Cost": 13.5,
+    "Artist": "Danilo Rea, Gabriele Mirabassi Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 4,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Arun Ghosh Indo-Jazz Sextet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tom Sykes Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "Bridgewater Hall",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Troubadours featuring Kirsty Almeida",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "Bridgewater Hall",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Grants Seminar for Jazz Musicans and Promoters",
+    "Type": "nm"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "Leftbank Stage",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Alex Douglas & John Ellis",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Brigitte Beraha Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 180,
+    "Cost": 8,
+    "Artist": "The Owl Ensemble, Grew Quartet, Graham Clark & Graham Massey",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 10,
+    "Artist": "Steve Grossman / Damon Brown Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The MK-Ultras",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Clark – Grew Duo",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "Leftbank Stage",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Lava",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "DrumCake",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mike Walker – Ropes",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 7.5,
+    "Artist": "Killer Shrimp",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mrs Columbo",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "George King",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "Leftbank Stage",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tony Judge Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Brothers Gris",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "Green Room",
+    "Time": 1930,
+    "Duration": 120,
+    "Cost": 9,
+    "Artist": "Neil Yates' Five Countries Trio, Curios",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 7,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 7.5,
+    "Artist": "The Blessing",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Paul Farr Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Robin Dewhurst and Mike Hall: Reflections",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "Leftbank Stage",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Steve Chadwick & Ed Barnwell",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Crill-Bones",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "Green Room",
+    "Time": 1930,
+    "Duration": 120,
+    "Cost": 9,
+    "Artist": "Robert Mitchell, Polo Ortí Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Kevin Davy Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 8,
+    "Venue": "St Ann's Church",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Vespers – Alex Douglas, AINE and Friends",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tim France Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1345,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Terri Shaltiel",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1530,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Wizards of Twiddly",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "City Inn",
+    "Time": 1730,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sarah Bennett Bossa Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 10,
+    "Artist": "Dierdre Cartwright & Kathy Dyson: Tribute to Emily Remler, Apitos: Made in Manchester",
+    "Type": "m"
+  },
+  {
+    "Year": 2008,
+    "Day": 9,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Don Weller with the Stuart McCallum Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 1,
+    "Venue": "Festival Pavilion",
+    "Time": 1930,
+    "Duration": 90,
+    "Cost": 5,
+    "Artist": "Ralph Alessi with the Jim Hart Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 1,
+    "Venue": "Band on the Wall",
+    "Time": 2030,
+    "Duration": 120,
+    "Cost": 14,
+    "Artist": "Nat Birchall Quartet, Marshal Allen and James Harrar",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 1,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 60,
+    "Cost": 5,
+    "Artist": "Honeyfeet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Festival Pavilion",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Magic Hat Ensemble",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Trashcan Collective",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Festival Pavilion",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Glazz",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Twitchy Fingers",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Festival Pavilion",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Tony Woods Project",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Matt Chandler Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 10,
+    "Artist": "Huw Jacob",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Band on the Wall",
+    "Time": 2100,
+    "Duration": 240,
+    "Cost": 11.5,
+    "Artist": "Mr Scruff",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Jon Thorne",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Papa Miles",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 170,
+    "Cost": 0,
+    "Artist": "Gary Boyle Band, Mike Hall and Dan Whieldon, Sara Colman Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "Festival Pavilion",
+    "Time": 1400,
+    "Duration": 180,
+    "Cost": 10,
+    "Artist": "Afro-Cuban workshop",
+    "Type": "nm"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Way Out (North) West",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "JD73",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 7.5,
+    "Artist": "Diaspora, Mojito",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 3,
+    "Venue": "Band on the Wall",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 10,
+    "Artist": "National Youth Jazz Orchestra of Scotland",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Extra Curricular",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Festival Pavilion",
+    "Time": 1230,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Pete Hughes",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Glass Mystery",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Festival Pavilion",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sam Rapley, Adam Chatterton Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Midland Hotel",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "Elaine Harris and Andrzej Baranek",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "European Union Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "St Ann's Church",
+    "Time": 1815,
+    "Duration": 90,
+    "Cost": 3,
+    "Artist": "Orfeo 5, Richard Scott's Lightening Ensemble, Rudnicki/Postle",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 0,
+    "Artist": "Monika Lidke",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 0,
+    "Artist": "Jazz Jam Session",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 4,
+    "Venue": "Band on the Wall",
+    "Time": 2315,
+    "Duration": 105,
+    "Cost": 0,
+    "Artist": "Jazz on 3",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Midland Hotel",
+    "Time": 1100,
+    "Duration": 310,
+    "Cost": 0,
+    "Artist": "Funding surgeries for jazz musicians",
+    "Type": "nm"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cusp",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Festival Pavilion",
+    "Time": 1230,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cool Ceol Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Elbracht-Sherrif Project",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Festival Pavilion",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Cait Mayall and Ben Newton, Daniel Marks",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Midland Hotel",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "Sarah Bennett and Curt Shaw",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Orchestre DC Dansette",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 100,
+    "Cost": 14,
+    "Artist": "Simcock/Walker/Swallow/Nussbaum",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 0,
+    "Artist": "Rodina",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Band on the Wall",
+    "Time": 2030,
+    "Duration": 120,
+    "Cost": 25,
+    "Artist": "Kid Creole and the coconuts",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Stuart McCallum with Rioghnagh Connolly",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Jim Faulkner Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Festival Pavilion",
+    "Time": 1230,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sara Dowling and Andy Kingslow",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Edward Barnell Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Midland Hotel",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "Alice Zawadzki and Moss Freed",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Festival Pavilion",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Andrew Woodhead quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Geni Lamb Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "St Ann's Church",
+    "Time": 1800,
+    "Duration": 30,
+    "Cost": 0,
+    "Artist": "Neil Yates and the N-Circle Jazz Orchestra Rehearsal",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 105,
+    "Cost": 14,
+    "Artist": "Phil Bancroft",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 0,
+    "Artist": "Terri Shaltiel",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Band on the Wall",
+    "Time": 2030,
+    "Duration": 120,
+    "Cost": 25,
+    "Artist": "Kid Creole and the coconuts",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "The Rachael Gladwin Sextet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Serge Tebu Project",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Festival Pavilion",
+    "Time": 1230,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The 265 Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Our Liberated Winter, Steve Tromans and Dan Nicholls",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Festival Pavilion",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ben Watte and Sam Healey Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Midland Hotel",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "An Jacobs and Dan Whieldon",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sargasso Township Jazz Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 100,
+    "Cost": 14,
+    "Artist": "Stu Brown Sextet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 10,
+    "Artist": "Harry Moyaga Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Band on the Wall",
+    "Time": 2100,
+    "Duration": 120,
+    "Cost": 12,
+    "Artist": "Asaf Sirkis Trio, Arun Ghosh Quintet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 7,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Cabbage Alley",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sendai",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "Festival Pavilion",
+    "Time": 1230,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Baylis/Howard/McCallum",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Les Chisnall",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "Festival Pavilion",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Orca Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "Midland Hotel",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 15,
+    "Artist": "Doreen Edwards and George King",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ad Inifitum",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "Festival Pavilion",
+    "Time": 2000,
+    "Duration": 150,
+    "Cost": 7.5,
+    "Artist": "Stuart McCallum, The Golden Age of Steam, Trio VD",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 8,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Rob Durbin Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "Festival Pavilion",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Daniel Erdmann and Francis Le Bras",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Mike Smith's Ginger Tunes Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "Festival Pavilion",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Kobu",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Billy Adamson Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "Festival Pavilion",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Baldo Martinez Group",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "St Ann's Square",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Zoe Chiotis Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "St Ann's Church",
+    "Time": 1900,
+    "Duration": 60,
+    "Cost": 9,
+    "Artist": "Neil Yates and the N-Circle Jazz Orchestra",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "Festival Pavilion",
+    "Time": 2030,
+    "Duration": 165,
+    "Cost": 7.5,
+    "Artist": "Beats 'n' Pieces Big Band, Dark Knights of Soul",
+    "Type": "m"
+  },
+  {
+    "Year": 2010,
+    "Day": 9,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Extra Love",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 1,
+    "Venue": "Festival Pavilion Teepee",
+    "Time": 2000,
+    "Duration": 180,
+    "Cost": 0,
+    "Artist": "Doreen Edwards",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 1,
+    "Venue": "Band on the Wall",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 10,
+    "Artist": "Apitos",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 1,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Amani",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Toby Greenwood's We Free Kings",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Gambol",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "ACV",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 8,
+    "Artist": "Pose – Roper - Salvador Trio, Pascal Schumacher Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Myke Wilson's Hidden Treatures",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Band on the Wall",
+    "Time": 1300,
+    "Duration": 180,
+    "Cost": 4,
+    "Artist": "Steve Williams and the Most Wanted Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 2,
+    "Venue": "Band on the Wall",
+    "Time": 1900,
+    "Duration": 240,
+    "Cost": 4,
+    "Artist": "Dr Truth",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 110,
+    "Cost": 0,
+    "Artist": "Andrzej Baranek Trio, Living Story Music Ensemble",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1300,
+    "Duration": 1300,
+    "Cost": 7.5,
+    "Artist": "Singing for Larks vocal workshop with faith watson",
+    "Type": "nm"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Midland Hotel",
+    "Time": 1530,
+    "Duration": 1530,
+    "Cost": 25,
+    "Artist": "Nice Cuppa Tea Dance with Kirsty Almeida and friends",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 2000,
+    "Cost": 10,
+    "Artist": "La Timbala",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Band on the Wall",
+    "Time": 1300,
+    "Duration": 180,
+    "Cost": 10,
+    "Artist": "Munch Manship Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 3,
+    "Venue": "Band on the Wall",
+    "Time": 1900,
+    "Duration": 240,
+    "Cost": 4,
+    "Artist": "Bare Wires",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Neil C. Young Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Quadratus",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Midland Hotel",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 18.95,
+    "Artist": "Afternoon Tea with Freddie Garner & Dave Turner",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "mjf introduces: Claire James Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Compassionate Dictatorship",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "St Ann's Church",
+    "Time": 1800,
+    "Duration": 120,
+    "Cost": 3,
+    "Artist": "Centrifuge",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Teepee",
+    "Time": 1815,
+    "Duration": 90,
+    "Cost": 0,
+    "Artist": "Lifting the Lid – Jazz Roots and Relevance",
+    "Type": "nm"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Bridgewater Hall",
+    "Time": 1930,
+    "Duration": 60,
+    "Cost": 37.95,
+    "Artist": "Al Jarreau",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 0,
+    "Artist": "Nick Malcolm Quartet, Mwamba/Kane/Blackmore",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 4,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 0,
+    "Artist": "Jazz & Blues Jam Session",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Solaris",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Blink",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Midland Hotel",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 18.95,
+    "Artist": "Afternoon Tea with Dan Whieldon / Jim Faulkner Duo: Undercurrents",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "mjf introduces: Christian Fields Octet",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Gene Pool Survivors",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Band on the Wall",
+    "Time": 2000,
+    "Duration": 70,
+    "Cost": 10,
+    "Artist": "mjf originals: The Imaginary Delta",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 0,
+    "Artist": "John King",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 5,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Sneaky",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Clark-Thorne-Fell",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Bridgewater Hall Foyer",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Sally Doherty & Paul Klivington",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Midland Hotel",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 18.95,
+    "Artist": "Afternoon Tea with That Meets This",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Festival Pavilion Teepee",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Munch Manship & Paul Klivington",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Ed Kainyek Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 100,
+    "Cost": 16,
+    "Artist": "Stuart McCallum: Distilled Album Launch in collaboration with Linder",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 0,
+    "Artist": "Burden of Paradise",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 6,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Skamel",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Rani's Dream",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Chris Cundy – Steven Grew: Clock Work",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Midland Hotel",
+    "Time": 1430,
+    "Duration": 60,
+    "Cost": 18.95,
+    "Artist": "Afternoon Tea with Norman Brown & Vinnie Parker",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Festival Pavilion Teepee",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Kenji Fenton & Andy Stamatkis-Brown",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "The Bowline Ensemble",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "RNCM",
+    "Time": 1930,
+    "Duration": 100,
+    "Cost": 16,
+    "Artist": "Winstone/Gesing/Venier",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 90,
+    "Cost": 0,
+    "Artist": "Mamadou and the Super Libidor Band",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Band on the Wall",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 12,
+    "Artist": "Edition Records Showcase: Dave Stapleton Quintet – Marius Nestet Quartet",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 7,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Chris Manis' Quinteto Chamalongo",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1145,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Gogo Penguin",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "St Ann's Church",
+    "Time": 1300,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Emily Remembered",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Festival Pavilion Teepee",
+    "Time": 1500,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Deep Cabaret Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Midland Hotel",
+    "Time": 1530,
+    "Duration": 120,
+    "Cost": 25,
+    "Artist": "The Nice Cuppa Tea Dance with Kirsty Almeida & Friends: The Brewgaloo Do",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1700,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "No Good Beatniks",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 10,
+    "Artist": "Richard Iles' Minature Brass Emporium featuring Iain Ballamy",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Band on the Wall",
+    "Time": 2000,
+    "Duration": 100,
+    "Cost": 12.5,
+    "Artist": "Philip Sayce",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 8,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Kalimero",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1200,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Josetxo Goia-Aribe & “La Orquesta Jamalandruki”",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1400,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Wagon Train",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 1600,
+    "Duration": 60,
+    "Cost": 0,
+    "Artist": "Benjamin Moussay Trio",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Festival Pavilion Theatre",
+    "Time": 2000,
+    "Duration": 120,
+    "Cost": 12,
+    "Artist": "Jonh Ellis Big Bang & Baked à la Ska",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Band on the Wall",
+    "Time": 2100,
+    "Duration": 270,
+    "Cost": 12.5,
+    "Artist": "Grupo X & Craig Charles’ Funk and Soul Club",
+    "Type": "m"
+  },
+  {
+    "Year": 2011,
+    "Day": 9,
+    "Venue": "Matt and Phred's",
+    "Time": 2200,
+    "Duration": 135,
+    "Cost": 5,
+    "Artist": "Renegade Brass Band",
+    "Type": "m"
+  }
+]
