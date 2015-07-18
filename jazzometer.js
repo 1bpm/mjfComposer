@@ -3,12 +3,13 @@ var xpath = require('xpath')
         http = require("http");
 
 function lookup(term,procFunc) {
-    var tms=["","jazz","albums","live","review", "gigs","sucks","rocks", "not jazz"];
+    var tms=["","raw","jazz","albums","live","review", "gigs","sucks","rocks", "not jazz"];
     var res={};
     var comp=0;
     for (var x in tms) {
         if (!res[tms[x]]) res[tms[x]]={};
-        doLookup("\" "+term+"\""+tms[x],function(r){
+        var theTerm=(tms[x]==="raw")?term+tms[x]:"\""+term+"\""+tms[x];
+        doLookup(theTerm,function(r){
             res[tms[x]].push(r.num);
             if (comp++>=tms.length) procFunc(res);
         });
@@ -45,6 +46,7 @@ function lookup(term,procFunc) {
             }
         }
     }
+    procFunc(res);
 }
 
 module.exports=lookup;
