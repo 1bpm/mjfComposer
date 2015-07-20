@@ -2,15 +2,16 @@ var xpath = require('xpath')
         , dom = require('xmldom').DOMParser,
         http = require("http");
 
-function lookup(term,procFunc) {
+module.exports=function lookup(term,procFunc) {
     var tms=["","raw","jazz","albums","live","review", "gigs","sucks","rocks", "not jazz"];
     var res={};
     var comp=0;
     for (var x in tms) {
         if (!res[tms[x]]) res[tms[x]]={};
-        var theTerm=(tms[x]==="raw")?term+tms[x]:"\""+term+"\""+tms[x];
+        var theTerm=(tms[x]==="raw")?term+tms[x]:"\""+term+"\" "+tms[x];
         doLookup(theTerm,function(r){
             res[tms[x]].push(r.num);
+            console.log(tms[x],r.num);
             if (comp++>=tms.length) procFunc(res);
         });
     }
@@ -37,16 +38,19 @@ function lookup(term,procFunc) {
                         }}}).parseFromString(xml);
                 var nodes = xpath.select(".//*[@id='resultStats']", doc);
             } catch (e) {
-
+                console.log("error");
             }
+           
             if (nodes.length > 0) {
                 var res = nodes[0].firstChild.data;
                 var num = res.replace("About ", "").replace(" results", "").replace(/,/g, "");
+                
                 fn({query:query,num:num}); //console.log(num);
+            } else {
+                console.log(xml);
             }
         }
     }
-    procFunc(res);
-}
+    //procFunc(res);
+};
 
-module.exports=lookup;

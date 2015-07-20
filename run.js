@@ -1,6 +1,6 @@
 var normalise = require("./lib").normalise;
 var source = require("./source");
-var jazz = require("./jazzometer").lookup;
+var jazz = require("./jazzometer");
 var searchers = [];
 var events = {
     flute: [],
@@ -12,6 +12,9 @@ var events = {
     guit2: [],
     roles:[]
 };
+
+jazz("ass",function(e){console.log(e);});
+process.exit();
 
 for (var r in source) {
 
@@ -88,37 +91,6 @@ function gauge(t,p){
 }
 
 
-new TextEvent("Silent","silent");
-new TextEvent("One short note","one");
 
-var introTime=10000;
-var tTime=0;
-var rls=Object.keys(roles).slice();
-for (var i=0;i<rls.length;i++) {
-    var r=rls[i];
-    var tm=(introTime/rls.length)*i;
-    if (i!==0) perform(r,"silent",tm);
-    perform(r,"one",1435);
-    if (i===rls.length-1) perform(r,"silent",introTime-tm);
-}
-
-perform("Drums",new TextEvent("Trad jazz, heavy on the ride pulse"),5435);
-perform("Bass",new TextEvent("Trad jazz, logical scales"),5435);
-perform(["Flute","Guitar 1","Guitar 2","Mixer"],"silent",10435);
-perform("Sax","silent",4000);perform("Sax","Harsh scream",1435);
-perform(["Bass","Sax"],"silent",5000);
-perform("Drums",new TextEvent("Pretty jazzy fill quickly turning to abstract ridiculousness"),5000);
-
-perform(roles,new TextEvent("Sustained chord/note/hit, low in pitch"),3000);
-new TextEvent("Like that, but a bit higher pitched","likethat");
-perform(roles,"likethat",2500);
-perform(roles,"likethat",2000);
-perform(roles,"likethat",1500);
-perform(roles,"likethat",1000);
-perform(roles,"likethat",500);
-perform(roles,"likethat",500);
-perform(roles,"silent",2500);
-perform(roles,new TextEvent("Sustained horrible discordant noise"),3000);
-perform(roles,"silent",3000);
 
 // algo shit
