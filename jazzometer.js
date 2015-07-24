@@ -3,22 +3,23 @@ var xpath = require('xpath')
         http = require("http");
 
 module.exports=function lookup(term,procFunc) {
-    var tms=["","raw","jazz","albums","live","review", "gigs","sucks","rocks", "not jazz"];
+    var tms=["raw","jazz","albums","live","review", "gigs","sucks","rocks", "\"not jazz\""];
     var res={};
     var comp=0;
     for (var x in tms) {
-        if (!res[tms[x]]) res[tms[x]]={};
-        var theTerm=(tms[x]==="raw")?term+tms[x]:"\""+term+"\" "+tms[x];
-        doLookup(theTerm,function(r){
-            res[tms[x]].push(r.num);
-            console.log(tms[x],r.num);
-            if (comp++>=tms.length) procFunc(res);
+        if (!res[tms[x]]) res[tms[x]]=0;
+        var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\"" +tms[x];
+        doLookup(theTerm,tms[x],function(ref,num){
+            res[ref]=num;
+            comp++;
+            if (comp>=tms.length) procFunc(res);
+            //console.log(res);
         });
     }
     
-    function doLookup(query, fn) {
+    function doLookup(query, ref,fn) {
         http.get({
-            host: "www.google.com",
+            host: "www.google.co.uk",
             port: 80,
             path: "/search?q=" + encodeURIComponent(query)
         }, function(res) {
@@ -41,14 +42,20 @@ module.exports=function lookup(term,procFunc) {
                 console.log("error");
             }
            
+            try {
             if (nodes.length > 0) {
                 var res = nodes[0].firstChild.data;
                 var num = res.replace("About ", "").replace(" results", "").replace(/,/g, "");
-                
-                fn({query:query,num:num}); //console.log(num);
+                console.log(num);
+                //res[ref]=num;//ref.push({query:query,num:num});
+                fn(ref,num);
             } else {
+                //fn(ref,0);
                 console.log(xml);
             }
+        } catch (e) {
+            fn(ref,0);
+        }
         }
     }
     //procFunc(res);
