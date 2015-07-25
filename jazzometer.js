@@ -6,20 +6,32 @@ module.exports=function lookup(term,procFunc) {
     var tms=["raw","jazz","albums","live","review", "gigs","sucks","rocks", "\"not jazz\""];
     var res={};
     var comp=0;
-    for (var x in tms) {
-        if (!res[tms[x]]) res[tms[x]]=0;
-        var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\"" +tms[x];
+    var toDo=[];
+    
+    function nxt() {
+        var theTerm=toDo.splice(toDo.length-1)[0];
         doLookup(theTerm,tms[x],function(ref,num){
             res[ref]=num;
             comp++;
             if (comp>=tms.length) procFunc(res);
             //console.log(res);
         });
+        
+        setTimeout(nxt,5000);
+        
     }
+    
+    for (var x in tms) {
+        if (!res[tms[x]]) res[tms[x]]=0;
+        var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\"" +tms[x];
+        toDo.push(theTerm);
+    }
+    
+    nxt();
     
     function doLookup(query, ref,fn) {
         http.get({
-            host: "www.google.co.uk",
+            host: "www.google.com",//.co.uk
             port: 80,
             path: "/search?q=" + encodeURIComponent(query)
         }, function(res) {

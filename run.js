@@ -44,7 +44,7 @@ function next() {
         fs.writeFileSync("./process.json",JSON.stringify(source));
     } else {
         var res=thiss[0]();
-        setTimeout(next,10000);
+        setTimeout(next,60000);
         require("fs").writeFileSync("./process.json",JSON.stringify(source));
     }
 }
