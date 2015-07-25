@@ -9,8 +9,10 @@ module.exports=function lookup(term,procFunc) {
     var toDo=[];
     
     function nxt() {
-        var theTerm=toDo.splice(toDo.length-1)[0];
-        doLookup(theTerm,tms[x],function(ref,num){
+        var theTermx=toDo.splice(toDo.length-1)[0];
+        var theTerm=theTermx[0];
+        var vi=theTermx[1];
+        doLookup(theTerm,vi,function(ref,num){
             res[ref]=num;
             comp++;
             if (comp>=tms.length) procFunc(res);
@@ -24,7 +26,7 @@ module.exports=function lookup(term,procFunc) {
     for (var x in tms) {
         if (!res[tms[x]]) res[tms[x]]=0;
         var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\"" +tms[x];
-        toDo.push(theTerm);
+        toDo.push([theTerm,tms[x]]);
     }
     
     nxt();
