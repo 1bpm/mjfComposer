@@ -26,7 +26,7 @@ module.exports=function lookup(term,procFunc) {
     
     for (var x in tms) {
         if (!res[tms[x]]) res[tms[x]]=0;
-        var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\"" +tms[x];
+        var theTerm=(tms[x]==="raw")?"\""+term+"\"":"\""+term+"\" " +tms[x];
         toDo.push([theTerm,tms[x]]);
     }
     
