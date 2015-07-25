@@ -10,6 +10,7 @@ module.exports=function lookup(term,procFunc) {
     
     function nxt() {
         var theTermx=toDo.splice(toDo.length-1)[0];
+        if (!theTermx) return;
         console.log(theTermx);
         var theTerm=theTermx[0];
         var vi=theTermx[1];
