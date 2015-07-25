@@ -34,10 +34,14 @@ module.exports=function lookup(term,procFunc) {
     nxt();
     
     function doLookup(query, ref,fn) {
+        var theUrl="/search?q=" + encodeURIComponent(query);
+        //console.log(theUrl);
+        //var https=require("https");
         http.get({
             host: "www.google.com",//.co.uk
+            headers:{"user-agent":"Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.6.0"},
             port: 80,
-            path: "/search?q=" + encodeURIComponent(query)
+            path: theUrl
         }, function(res) {
             var xmRes = [];
             res.on("data", function(c) {
