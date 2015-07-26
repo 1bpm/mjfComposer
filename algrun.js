@@ -160,6 +160,7 @@ for (var y in days) { // each year
     var ye=days[y];
     var ydata={};
     var yearDuration=0;
+    var carrynotes=[];
     for (var d in ye) { // each day
         var day=ye[d];
         var duration=day.totaltime*5;
@@ -184,8 +185,9 @@ for (var y in days) { // each year
             notes.push(["green",n.Time,dur,vl]);
             
             if (r.ClashNext) {
-//                notes.push([roles[nextRole(tr)],n.Time,n.Duration*2,1-n.SearchResults.sucks||n.Artist]);
-                notes.push(["red",n.Time,n.Duration*2.5,1-(n.SearchResults.sucks)*0.8||n.Artist]);
+                var tn=["yellow",n.Time,n.Duration*2.5,1-(n.SearchResults.sucks)*0.8||n.Artist];
+                notes.push(tn);
+                carrynotes.push(tn);
             }
             if (r.ClashLast) {
 //                notes.push([roles[lastRole(tr)],n.Time,n.Duration*2,1-n.SearchResults.sucks||n.Venue]);
@@ -203,17 +205,34 @@ for (var y in days) { // each year
     //perf.push({duration:y,event:"silent",roles:roles});
     data[y]=ydata;
 } // each year
-
+console.log(roledur);
 var max=0;
     for (var x in roles) {  
         var m=roles[x];
         if (roledur[m]>max) max=roledur[m];
     }
+
     for (var x in roles) {
-        var tm=max-roledur[m];
-        if (tm>0) perf.push({duration:tm,event:"silent",roles:[roles[x]]});
+        if (!roledur[roles[x]]) roledur[roles[x]]=0;
+        var tm=max-roledur[roles[x]];
+        var silencio={duration:tm,event:"silent",roles:[roles[x]]};
+        if (tm>0) perf.push(silencio);
+        console.log(silencio);
     }
 
+perf.push({duration:3141,event:"text",text:"raucous noise",roles:["Drums","Mixer"]});
+
+perf.push({duration:5000,event:"text",text:"static high frequency pitch",roles:["Mixer"]});
+perf.push({duration:3000,event:"silent",roles:["Saxophone"]});
+perf.push({duration:2000,event:"text",text:"raucous noise",roles:["Saxophone"]});
+
+perf.push({duration:5000,event:"silent",roles:["Drums","Flute/Feedback","Guit1","Guit2","Bass"]});
+perf.push({roles:roles,duration:5000,event:"notes",notes:[["green",0,1,0.5]]});
+perf.push({roles:roles,duration:4000,event:"notes",notes:[["green",0,1,0.6]]});
+perf.push({roles:roles,duration:3000,event:"notes",notes:[["green",0,1,0.7]]});
+perf.push({roles:roles,duration:2000,event:"notes",notes:[["yellow",0,1,0.8]]});
+perf.push({roles:roles,duration:1000,event:"notes",notes:[["red",0,1,0.9]]});
+perf.push({roles:roles,duration:500,event:"notes",notes:[["red",0,1,1]]});
 
 
 
@@ -221,29 +240,29 @@ require("fs").writeFileSync("./tst.json",JSON.stringify(perf));
 //console.log(data[19]);
 console.log(((totalDuration/1000)/60)/7);
 
-function pad (e, doPad) {
-        var o = [];
-        for (var nm in roles) {
-            var roleparts = false;
-            for (var rn in e.roles) {
-                var rnm = e.roles[rn];
-                if (rnm === nm) {
-                    roleparts = true;
-                }
-            }
-            if (roleparts) {
-                o.push({role: nm, event: e.event, duration: e.duration});
-            } else if (!doPad) {
-                o.push({role: nm, event: "silent", duration: e.duration});
-            }
-        }
-        return o;
-    };
-
-
-
-require("fs").writeFileSync("./processed.json",JSON.stringify({
-    source:source,
-    normal:normal,
-    years:years
-}));
+//function pad (e, doPad) {
+//        var o = [];
+//        for (var nm in roles) {
+//            var roleparts = false;
+//            for (var rn in e.roles) {
+//                var rnm = e.roles[rn];
+//                if (rnm === nm) {
+//                    roleparts = true;
+//                }
+//            }
+//            if (roleparts) {
+//                o.push({role: nm, event: e.event, duration: e.duration});
+//            } else if (!doPad) {
+//                o.push({role: nm, event: "silent", duration: e.duration});
+//            }
+//        }
+//        return o;
+//    };
+//
+//
+//
+//require("fs").writeFileSync("./processed.json",JSON.stringify({
+//    source:source,
+//    normal:normal,
+//    years:years
+//}));
