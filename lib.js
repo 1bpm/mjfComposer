@@ -37,7 +37,7 @@ function originality(table) {
 }
 
 function normalise(table) {
-    var max = {};
+    var max = {}; 
     var min = {};
     var scale = {}; // do dat
     var result = [];
@@ -56,22 +56,24 @@ function normalise(table) {
                     }
                     scale[c][col] = Object.keys(scale[c]).length + 1;
                 }
+            } else {
+                col=parseFloat(col);
             }
 
             if (typeof col === "number") {
 
                 if (!max[c])
                     max[c] = 0;
-                if (!min[c])
+                if (!min[c] && min[c]!==0)
                     min[c] = 99999999999;
                 if (col > max[c])
                     max[c] = col;
-                if (col < min[c])
+                if (col < min[c]) 
                     min[c] = col;
             }
         }
         
-    }
+    } 
     for (var r in table) {
         var row = table[r];
         var res = {};

@@ -30,6 +30,7 @@ for (var r in source) {
             jazz(artist, function (res) {
                 console.log(res);
                 a.SearchResults = res;
+                console.log("add",a);
             });
         },r]);
         }
@@ -53,62 +54,7 @@ next();
 //
 //process.exit();
 //
-//var normal = normalise(source);
-//var years = {};
-//var normalYears = {};
-//
-//// create year splits
-//for (var r in source) {
-//    var row = source[r];
-//    var year = row.Year;
-//    if (!years[year])
-//        years[year] = [];
-//    years[year].push(source[r]);
-//}
-//
-//// normalise years
-//for (var y in years) {
-//    normalYears[y] = normalise(years[y]);
-//}
-//
-//function DecTime(row) {
-//    var h = row.Time;
-//    var H = h.charAt(0) + h.charAt(1);
-//    var M = h.charAt(2) + h.charAt(3);
-//    row.NormalTime=(H + (M / 60)) / 24;
-//}
-//
-//var factors=[
-//    {name:"approx notes per minute"},
-//    {name:"crowd pleasing"},
-//    {name:"professionalism"},
-//    {name:"attention to other performers"}
-//];
-//
-//
-//for (var y in years) {
-//    var days=[];
-//    for (var r in years[y]) {
-//        var row=years[y][r];
-//        days[row.Day]=row;
-//    }
-//}
-//
-//function perform(role,ev,time) {
-//    events[role]=[ev,time];
-//}
-//
-//function jazzFactor(r, n) {
-//    var value = r.Duration / r.Cost;
-//    var interest = 1 / r.Day;
-//}
-//
-////----------------------------------------------------------------------------
-//
-//
-//function gauge(t,p){
-//    $("#gauge").etc
-//}
+
 
 
 

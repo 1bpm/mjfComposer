@@ -10,7 +10,10 @@ module.exports=function lookup(term,procFunc) {
     
     function nxt() {
         var theTermx=toDo.splice(toDo.length-1)[0];
-        if (!theTermx) return;
+        if (!theTermx) {
+            procFunc(res);
+            return;
+        }
         console.log(theTermx);
         var theTerm=theTermx[0];
         var vi=theTermx[1];
@@ -36,13 +39,23 @@ module.exports=function lookup(term,procFunc) {
     function doLookup(query, ref,fn) {
         var theUrl="/search?q=" + encodeURIComponent(query);
         //console.log(theUrl);
-        //var https=require("https");
-        http.get({
-            host: "www.google.com",//.co.uk
-            headers:{"user-agent":"Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.6.0"},
-            port: 80,
-            path: theUrl
-        }, function(res) {
+        var https=require("https");
+//        http.get({
+//            host: "www.google.co.uk",//.co.uk
+//            headers:{"user-agent":
+//                        "Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.6.0",
+//                "Cookie":"GOOGLE_ABUSE_EXEMPTION=ID=d36562ccbc4a2d3c:TM=1437831999:C=c:IP=89.242.214.15-:S=APGng0uemNbfXfzRz9dmqrFKiQq1tD45vA"
+//            },
+//            port: 80,
+//            path: theUrl
+//        }, 
+var abuse="ID=07ee1bbb47ebf426:TM=1437842106:C=c:IP=89.242.214.15:S=APGng0vK43u6kxekkVnM5kV_pFOrCQR3jw";
+var a=https.request({hostname:"www.google.co.uk",headers:{"user-agent":
+                        "Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.6.0",
+                "Cookie":"GOOGLE_ABUSE_EXEMPTION="+abuse
+            },path:theUrl,port:443,method:"GET"},
+        function(res) {
+            //console.log(res);
             var xmRes = [];
             res.on("data", function(c) {
                 xmRes.push(c);
@@ -50,7 +63,7 @@ module.exports=function lookup(term,procFunc) {
             res.on("end", function() {
                 parseUp(xmRes.join(""));
             });
-        });
+        });a.end();
         function parseUp(xml) {
             try {
                 var doc = new dom({locator: {}, errorHandler: {warning: function() {
@@ -78,6 +91,6 @@ module.exports=function lookup(term,procFunc) {
         }
         }
     }
-    //procFunc(res);
+    
 };
 
