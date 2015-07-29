@@ -197,7 +197,7 @@ for (var y in days) { // each year
         ydata[d]={duration:duration,notes:notes};
         //process.exit();
         roledur[role1]+=duration;
-        perf.push({roles:[role1],duration:duration,event:"notes",notes:notes});    
+        perf.push({roles:[role1],duration:duration*0.5,event:"notes",notes:notes});    
     } // end of each day
     
     
@@ -233,6 +233,55 @@ perf.push({roles:roles,duration:3000,event:"notes",notes:[["green",0,1,0.7]]});
 perf.push({roles:roles,duration:2000,event:"notes",notes:[["yellow",0,1,0.8]]});
 perf.push({roles:roles,duration:1000,event:"notes",notes:[["red",0,1,0.9]]});
 perf.push({roles:roles,duration:500,event:"notes",notes:[["red",0,1,1]]});
+
+
+for (var y in days) { // each year
+    var ye=days[y];
+    var ydata={};
+    var yearDuration=0;
+    var carrynotes=[];
+    for (var d in ye) { // each day
+        var day=ye[d];
+        var duration=day.totaltime*5;
+        totalDuration+=duration;
+        yearDuration+=duration;
+        var eindex=0;
+        for (var r in roles) {
+            var role=roles[r];
+            var ev=day.e[eindex];
+            if (eindex>=day.e.length-1) {
+                eindex=0;
+            } else {
+                eindex++;
+            }
+        }
+        var n=day.n[eindex];
+        var dur=n.Duration*10000;
+        var contempt;
+        if (ev.ClashNext || ev.ClashLast) {
+            dur=dur*n.SearchResults.rocks;
+            if (dur<500) dur=500;
+            contempt=[
+                n.SearchResults.sucks||n.Venue,
+                n.SearchResults['"not jazz"']||n.Artist
+            ];
+        }
+        
+        var points=[
+            bringin(n.SearchResults.jazz||n.Artist),
+            bringin(n.SearchResults.gigs||n.Time)
+        ];
+        var tev={
+            roles:[role],duration:dur,event:"curve",points:{pitch:points,contempt:contempt}
+        };
+        perf.push(tev);
+    }
+}
+
+
+
+
+
 
 
 
