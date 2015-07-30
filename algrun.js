@@ -205,7 +205,7 @@ for (var y in days) { // each year
     //perf.push({duration:y,event:"silent",roles:roles});
     data[y]=ydata;
 } // each year
-console.log(roledur);
+//console.log(roledur);
 var max=0;
     for (var x in roles) {  
         var m=roles[x];
@@ -217,7 +217,7 @@ var max=0;
         var tm=max-roledur[roles[x]];
         var silencio={duration:tm,event:"silent",roles:[roles[x]]};
         if (tm>0) perf.push(silencio);
-        console.log(silencio);
+        //console.log(silencio);
     }
 
 perf.push({duration:3141,event:"text",text:"raucous noise",roles:["Drums","Mixer"]});
@@ -254,7 +254,7 @@ for (var y in days) { // each year
             } else {
                 eindex++;
             }
-        }
+        
         var n=day.n[eindex];
         var dur=n.Duration*10000;
         var contempt;
@@ -275,6 +275,7 @@ for (var y in days) { // each year
             roles:[role],duration:dur,event:"curve",points:{pitch:points,contempt:contempt}
         };
         perf.push(tev);
+    }
     }
 }
 
