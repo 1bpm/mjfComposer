@@ -1,0 +1,21 @@
+mjfComposer
+===========
+
+data/
+    composition.json    output from generateComposition.js
+    raw.json            source data gathered from MJF programmes
+    source.json         same as raw.json but with search results
+
+
+lib/
+    analysis.js         normalisation and character mapping
+    jazzometer.js       search result calculator
+
+
+generateSearchResults.js
+    adds search result data to source.json
+
+
+generateComposition.js  
+    processes source data (Manchester Jazz Festival programme details in raw.json) 
+    into composition.json, to be read by the dfscore composition
