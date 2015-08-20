@@ -1,6 +1,6 @@
-var normalise = require("./lib").normalise;
-var source = require("./process");
-var jazz = require("./jazzometer");
+var normalise = require("./lib/analysis").normalise;
+var source = require("./data/source.json");
+var jazz = require("./lib/jazzometer");
 var searchers = [];
 var events = {
     flute: [],
@@ -13,11 +13,10 @@ var events = {
     roles:[]
 };
 
-
+// update source file with jazzometer search results
 
 
 for (var r in source) {
-
     source[r].OTimeRef = source[r].Day + "" + source[r].Time;
 
     // split by comma
@@ -43,6 +42,7 @@ function next() {
     var thiss=searchers.splice(searchers.length-1)[0];
     if (!thiss) {
         fs.writeFileSync("./process.json",JSON.stringify(source));
+        process.exit();
     } else {
         var res=thiss[0]();
         setTimeout(next,60000);
@@ -51,12 +51,3 @@ function next() {
 }
 
 next();
-//
-//process.exit();
-//
-
-
-
-
-
-// algo shit

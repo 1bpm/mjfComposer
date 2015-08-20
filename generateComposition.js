@@ -1,5 +1,5 @@
-var source=require("./process");
-var lib=require("./lib");
+var source=require("./data/source");
+var lib=require("./lib/analysis");
 var normalise=lib.normalise;
 
 var years = {};
@@ -176,28 +176,33 @@ for (var y in days) { // each year
             var n=day.n[ev];
             var r=day.e[ev];
 //            notes.push([role1,n.Time,n.Duration,bringin(n.SearchResults.rocks||n.Venue)]);
-            var vl=bringin(1-(n.SearchResults.rocks)*0.8||n.Venue);
-            var dur=n.Duration;
+            var vl=bringin(1-(n.SearchResults.rocks)*0.7||n.Venue);
+            var dur=n.Duration*1.1;
             if (r.ClashNext || r.ClashLast) {
-                dur*=2;
-                vl=[vl,1-n.SearchResults.sucks||n.Artist];
+                dur*=1.3;
+                vl=[vl,1-(n.SearchResults.sucks)*0.8||n.Artist];
             }
             notes.push(["green",n.Time,dur,vl]);
             
+            if (n.Cost>0.8) {
+                var c=["blue",(n.Time+n.Duration)*2.5,n.Duration*2.5,n.Cost*0.3];
+                notes.push(c);
+            }
             if (r.ClashNext) {
-                var tn=["yellow",n.Time,n.Duration*2.5,1-(n.SearchResults.sucks)*0.8||n.Artist];
+                var tn=["yellow",n.Time,n.Duration*2.5,(1-(n.SearchResults.sucks))*0.6||n.Artist];
                 notes.push(tn);
                 carrynotes.push(tn);
             }
             if (r.ClashLast) {
 //                notes.push([roles[lastRole(tr)],n.Time,n.Duration*2,1-n.SearchResults.sucks||n.Venue]);
-                notes.push(["red",n.Time,n.Duration*2.5,1-(n.SearchResults.sucks)*0.8||n.Venue]);
+                notes.push(["red",n.Time,n.Duration*2.5,(1-(n.SearchResults.rocks))*0.7||n.Venue]);
             }
         }
         ydata[d]={duration:duration,notes:notes};
         //process.exit();
+        duration=duration*0.374;
         roledur[role1]+=duration;
-        perf.push({roles:[role1],duration:duration*0.5,event:"notes",notes:notes});    
+        perf.push({roles:[role1],duration:duration,event:"notes",notes:notes});    
     } // end of each day
     
     
@@ -221,6 +226,7 @@ var max=0;
     }
 
 perf.push({duration:3141,event:"text",text:"raucous noise",roles:["Drums","Mixer"]});
+perf.push({duration:3141,event:"silent",roles:["Flute/Feedback","Guit1","Guit2","Bass"]});
 
 perf.push({duration:5000,event:"text",text:"static high frequency pitch",roles:["Mixer"]});
 perf.push({duration:3000,event:"silent",roles:["Saxophone"]});
@@ -234,7 +240,8 @@ perf.push({roles:roles,duration:2000,event:"notes",notes:[["yellow",0,1,0.8]]});
 perf.push({roles:roles,duration:1000,event:"notes",notes:[["red",0,1,0.9]]});
 perf.push({roles:roles,duration:500,event:"notes",notes:[["red",0,1,1]]});
 
-
+/*
+var lastpoints={};
 for (var y in days) { // each year
     var ye=days[y];
     var ydata={};
@@ -254,39 +261,74 @@ for (var y in days) { // each year
             } else {
                 eindex++;
             }
-        
+        if (!lastpoints[role]) lastpoints[role]={};
+        var l=lastpoints[role];
         var n=day.n[eindex];
         var dur=n.Duration*10000;
         var contempt;
+        var jazz=[];
+        var nps=[];
+        var curved=-1;
+        if (n.SearchResults.rocks>0.9) {
+           // curved=((n.Duration+n.Artist)/2)*10;
+        }
+        if (n.SearchResults.jazz>0.9999) {
+            var jz=n.SearchResults.jazz*0.8;
+            jazz=[l.jazz||0.2,jz];
+            nps.push(["yellow",l.jz||0.2,jz,jz]);
+            l.jazz=jz;
+        }
         if (ev.ClashNext || ev.ClashLast) {
             dur=dur*n.SearchResults.rocks;
-            if (dur<500) dur=500;
+            if (dur<1000) {
+                dur=(dur*10>2000)? dur*10 : dur*2;
+            }
+            var c=((n.SearchResults['"not jazz"']||n.Artist)+(n.SearchResults.sucks||n.Venue))/2;
             contempt=[
-                n.SearchResults.sucks||n.Venue,
-                n.SearchResults['"not jazz"']||n.Artist
+                l.contempt||0.2,
+                c
             ];
+            nps.push(["red",c,0.2,l.contempt||0.2]);
+            l.contempt=c;
         }
-        
+        if (dur<4000) dur=dur*4;
+        if (dur<1000) dur=dur*4;
+       var p=bringin((n.SearchResults.jazz||n.Cost)+(n.SearchResults.gigs||n.Time)/2);
         var points=[
-            bringin(n.SearchResults.jazz||n.Artist),
-            bringin(n.SearchResults.gigs||n.Time)
+            l.p||0.2,p
+            
         ];
+        nps.push(["blue",p,(l.p||0.2),p]);
+        l.p=p;
         var tev={
-            roles:[role],duration:dur,event:"curve",points:{pitch:points,contempt:contempt}
+            roles:[role],duration:dur,event:"curve",points:{pitch:points,contempt:contempt,rhythmComplexity:jazz}
         };
+
+if (!nps) console.log("None");
+        tev={roles:[role],duration:dur,event:"notes",notes:nps};
+        
+        
         perf.push(tev);
+        if (n.SearchResults.gigs<0.1) {
+            var tnotes=[];
+            for (var x=0; x<(n.Cost*10);x++) {
+                tnotes.push(["black",x/10,n.Duration,(n.Duration+n.Cost)/1.6]);
+            }
+            perf.push({roles:[role],duration:dur*1.4,event:"notes",notes:tnotes});
+            perf.push({roles:[role],duration:dur*1.4,event:"silent"});
+        }
     }
     }
 }
 
+*/
 
 
 
 
 
 
-
-require("fs").writeFileSync("./tst.json",JSON.stringify(perf));
+require("fs").writeFileSync("./data/composition.json",JSON.stringify(perf));
 //console.log(data[19]);
 console.log(((totalDuration/1000)/60)/7);
 
