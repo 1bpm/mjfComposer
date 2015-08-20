@@ -1,5 +1,7 @@
 mjfComposer
 ===========
+Processes Manchester Jazz Festival programmes as JSON data into composition specific JSON data.
+
 
 data/
     composition.json    output from generateComposition.js
@@ -17,5 +19,6 @@ generateSearchResults.js
 
 
 generateComposition.js  
-    processes source data (Manchester Jazz Festival programme details in raw.json) 
+    processes source data 
+    Manchester Jazz Festival programme details in raw.json) 
     into composition.json, to be read by the dfscore composition
